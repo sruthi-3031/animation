@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: url(gif.webp) no-repeat fixed ;
+            background-size: cover;
+            
+        }
+                div{
+            background-image: url(moon.jpeg);
+            height: 150px;
+            width: 150px;
+            border-radius: 90px;
+            background-size: cover;
+            float: right;
+            margin: 40px 40px;
+            animation: earth 8s 1s linear infinite ;
+        }
+        @keyframes earth{
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+        iframe{
+            padding-left: 40px;
+            padding-top: 40px;
+        }
+        img{
+            height: 600px;
+            width: 400px;
+            align-items: center;
+            justify-content: center;
+           padding-left: 30%;
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <iframe width="250" height="200" src="https://www.youtube.com/embed/_ziODBruqdA?si=d-sIaGRQIeHnGz20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<img src="isro-journey_b_16.gif">
+</body>
+</html>
